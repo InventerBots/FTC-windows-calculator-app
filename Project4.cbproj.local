@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2017/06/26 12:46:23.000.619,=C:\Users\Luke\Documents\Embarcadero\Studio\Projects\Project4PCH1.h</Transaction>
+    <Transaction>2017/06/26 12:46:23.000.728,=C:\Users\Luke\Documents\Embarcadero\Studio\Projects\splitItemDetail.cpp</Transaction>
+    <Transaction>2017/06/26 12:46:23.000.643,=C:\Users\Luke\Documents\Embarcadero\Studio\Projects\groupedItems.cpp</Transaction>
+    <Transaction>2017/06/26 12:51:21.000.601,=C:\Users\Luke\Documents\Embarcadero\Studio\Projects\Project4PCH1.h</Transaction>
+    <Transaction>2017/06/26 12:51:21.000.623,=C:\Users\Luke\Documents\Embarcadero\Studio\Projects\groupedItems.cpp</Transaction>
+    <Transaction>2017/06/26 12:51:21.000.708,=C:\Users\Luke\Documents\Embarcadero\Studio\Projects\itemDetail.cpp</Transaction>
+    <Transaction>2017/06/26 17:16:41.000.149,=C:\Users\Luke\Documents\Embarcadero\Studio\Projects\Unit4.cpp</Transaction>
+    <Transaction>2017/06/26 17:16:41.000.139,=C:\Users\Luke\Documents\Embarcadero\Studio\Projects\Project4PCH1.h</Transaction>
+    <Transaction>2017/06/26 17:37:09.000.347,C:\Users\Luke\Desktop\tab calculators\Calculator.cpp=C:\Users\Luke\Documents\Embarcadero\Studio\Projects\Unit4.cpp</Transaction>
+    <Transaction>2017/06/26 17:37:09.000.347,C:\Users\Luke\Desktop\tab calculators\Calculator.dfm=C:\Users\Luke\Documents\Embarcadero\Studio\Projects\Unit4.dfm</Transaction>
+    <Transaction>2017/06/26 17:37:09.000.347,C:\Users\Luke\Desktop\tab calculators\Calculator.h=C:\Users\Luke\Documents\Embarcadero\Studio\Projects\Unit4.h</Transaction>
+    <Transaction>2017/06/26 17:45:44.000.021,C:\Users\Luke\Desktop\tab calculators\Project4PCH1.h=C:\Users\Luke\Documents\Embarcadero\Studio\Projects\Project4PCH1.h</Transaction>
+    <Transaction>2017/06/26 17:45:45.000.092,C:\Users\Luke\Desktop\tab calculators\Project4.cbproj=C:\Users\Luke\Documents\Embarcadero\Studio\Projects\Project4.cbproj</Transaction>
+    <Transaction>2017/06/29 18:54:18.000.574,=C:\Users\Luke\Desktop\Calculators\tab calculators\Unit1.cpp</Transaction>
+    <Transaction>2017/06/29 19:29:58.000.340,=C:\Users\Luke\Desktop\Calculators\tab calculators\New1.css</Transaction>
+  </Transactions>
+</BorlandProject>

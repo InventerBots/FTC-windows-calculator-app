@@ -1,0 +1,60 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{05E21949-3623-4E93-9326-60CBF09D199D}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Project4.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\speed caculation app v2\Project3_v2.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\Runtime calculator\Project3.cbproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="Project4">
+        <MSBuild Projects="Project4.cbproj"/>
+    </Target>
+    <Target Name="Project4:Clean">
+        <MSBuild Projects="Project4.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Project4:Make">
+        <MSBuild Projects="Project4.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="Project3_v2">
+        <MSBuild Projects="..\speed caculation app v2\Project3_v2.cbproj"/>
+    </Target>
+    <Target Name="Project3_v2:Clean">
+        <MSBuild Projects="..\speed caculation app v2\Project3_v2.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Project3_v2:Make">
+        <MSBuild Projects="..\speed caculation app v2\Project3_v2.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="Project3">
+        <MSBuild Projects="..\Runtime calculator\Project3.cbproj"/>
+    </Target>
+    <Target Name="Project3:Clean">
+        <MSBuild Projects="..\Runtime calculator\Project3.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Project3:Make">
+        <MSBuild Projects="..\Runtime calculator\Project3.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="Project4;Project3_v2;Project3"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="Project4:Clean;Project3_v2:Clean;Project3:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="Project4:Make;Project3_v2:Make;Project3:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

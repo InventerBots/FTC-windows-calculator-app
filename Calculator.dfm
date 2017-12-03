@@ -20,7 +20,7 @@ object Form4: TForm4
     Top = 0
     Width = 729
     Height = 191
-    ActivePage = Tab3
+    ActivePage = TabSheet1
     TabOrder = 0
     object tab1: TTabSheet
       Caption = 'Runtime Calculator'
@@ -435,9 +435,23 @@ object Form4: TForm4
         VertScrollBar.Tracking = True
         TabOrder = 0
         inherited Memo1: TMemo
+          Lines.Strings = (
+            ''
+            'lillkjlkjhlkjhkljlkjhlkjjh'
+            ''
+            'kjhlkjh'#39';i'
+            'fer'
+            'fkds'
+            ';fd'
+            'fo'
+            ';asdko')
           ReadOnly = False
         end
       end
+    end
+    object TabSheet1: TTabSheet
+      Caption = 'TabSheet1'
+      ImageIndex = 3
     end
   end
 end

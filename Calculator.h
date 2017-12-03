@@ -60,6 +60,7 @@ __published:	// IDE-managed Components
 	TComboBox *gearbox;
 	TTabSheet *Tab3;
 	Texplanation *explanation1;
+	TTabSheet *TabSheet1;
 	void __fastcall runClick(TObject *Sender);
 	void __fastcall Button1Click(TObject *Sender);
 	void __fastcall FormActivate(TObject *Sender);
